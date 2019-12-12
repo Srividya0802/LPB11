@@ -1,0 +1,26 @@
+Status: FAILED
+Time Taken: 4207
+Size: 0
+Timestamp: Thu Dec 12 01:25:41 CST 2019
+TestStep: Login
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8088 refused
+
+----------------- Properties ------------------------------
+Endpoint: http://localhost:8088/mockShoppingService
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:loginRequest>
+         <ns:username>Manzoor</ns:username>
+         <ns:password>Manzoor</ns:password>
+      </ns:loginRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
